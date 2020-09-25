@@ -127,6 +127,33 @@ DeepFileSearch\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeepFileSearch.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DeepFileSearch.dir\build
 .PHONY : DeepFileSearch\fast
 
+FileDAO.obj: FileDAO.cpp.obj
+
+.PHONY : FileDAO.obj
+
+# target to build an object file
+FileDAO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeepFileSearch.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj
+.PHONY : FileDAO.cpp.obj
+
+FileDAO.i: FileDAO.cpp.i
+
+.PHONY : FileDAO.i
+
+# target to preprocess a source file
+FileDAO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeepFileSearch.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.i
+.PHONY : FileDAO.cpp.i
+
+FileDAO.s: FileDAO.cpp.s
+
+.PHONY : FileDAO.s
+
+# target to generate assembly for a file
+FileDAO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DeepFileSearch.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.s
+.PHONY : FileDAO.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DeepFileSearch
+	@echo ... FileDAO.obj
+	@echo ... FileDAO.i
+	@echo ... FileDAO.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

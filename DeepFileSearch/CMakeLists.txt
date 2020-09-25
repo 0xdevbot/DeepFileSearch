@@ -3,4 +3,4 @@ project(DeepFileSearch)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DeepFileSearch main.cpp)
+add_executable(DeepFileSearch main.cpp FileDAO.cpp FileDAO.h)

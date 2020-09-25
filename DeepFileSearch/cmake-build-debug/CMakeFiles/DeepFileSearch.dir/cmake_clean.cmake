@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DeepFileSearch.dir/FileDAO.cpp.obj"
   "CMakeFiles/DeepFileSearch.dir/main.cpp.obj"
   "DeepFileSearch.exe"
   "DeepFileSearch.exe.manifest"

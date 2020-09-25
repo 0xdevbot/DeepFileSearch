@@ -80,17 +80,38 @@ CMakeFiles\DeepFileSearch.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\DeepFileSearch.dir\main.cpp.s /c C:\Users\orion\dev\DeepFileSearch\main.cpp
 <<
 
+CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj: CMakeFiles\DeepFileSearch.dir\flags.make
+CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj: ..\FileDAO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\orion\dev\DeepFileSearch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DeepFileSearch.dir/FileDAO.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj /FdCMakeFiles\DeepFileSearch.dir\ /FS -c C:\Users\orion\dev\DeepFileSearch\FileDAO.cpp
+<<
+
+CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DeepFileSearch.dir/FileDAO.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\orion\dev\DeepFileSearch\FileDAO.cpp
+<<
+
+CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DeepFileSearch.dir/FileDAO.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\DeepFileSearch.dir\FileDAO.cpp.s /c C:\Users\orion\dev\DeepFileSearch\FileDAO.cpp
+<<
+
 # Object files for target DeepFileSearch
 DeepFileSearch_OBJECTS = \
-"CMakeFiles\DeepFileSearch.dir\main.cpp.obj"
+"CMakeFiles\DeepFileSearch.dir\main.cpp.obj" \
+"CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj"
 
 # External object files for target DeepFileSearch
 DeepFileSearch_EXTERNAL_OBJECTS =
 
 DeepFileSearch.exe: CMakeFiles\DeepFileSearch.dir\main.cpp.obj
+DeepFileSearch.exe: CMakeFiles\DeepFileSearch.dir\FileDAO.cpp.obj
 DeepFileSearch.exe: CMakeFiles\DeepFileSearch.dir\build.make
 DeepFileSearch.exe: CMakeFiles\DeepFileSearch.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\orion\dev\DeepFileSearch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DeepFileSearch.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\orion\dev\DeepFileSearch\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DeepFileSearch.exe"
 	C:\Users\orion\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\DeepFileSearch.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\DeepFileSearch.dir\objects1.rsp @<<
  /out:DeepFileSearch.exe /implib:DeepFileSearch.lib /pdb:C:\Users\orion\dev\DeepFileSearch\cmake-build-debug\DeepFileSearch.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

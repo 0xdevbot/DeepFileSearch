@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/orion/dev/DeepFileSearch/FileDAO.cpp">
+			<Option target="DeepFileSearch"/>
+		</Unit>
+		<Unit filename="C:/Users/orion/dev/DeepFileSearch/FileDAO.h">
+			<Option target="DeepFileSearch"/>
+		</Unit>
 		<Unit filename="C:/Users/orion/dev/DeepFileSearch/main.cpp">
 			<Option target="DeepFileSearch"/>
 		</Unit>

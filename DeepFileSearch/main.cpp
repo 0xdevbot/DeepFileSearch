@@ -7,10 +7,9 @@ int main() {
     std::cout << "enter a search term" << std::endl;
     std::cin >> userInput;
     std::string term = userInput;
-    FileDAO searchInstance(std::string term);
-    //std::cout << searchInstance.getSearchTerm() << std::endl;
+    FileDAO searchInstance;
     cmd += static_cast<std::string>(userInput);
-    std::cout << cmd << std::endl;
+    std::cout << searchInstance.getHelp() << std::endl;
     system(cmd.c_str());
     return 0;
 }

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/orion/dev/DeepFileSearch/FileDAO.cpp
+FileDAO.h
+C:/Users/orion/dev/DeepFileSearch/FileDAO.h
+utility
+-
+
+C:/Users/orion/dev/DeepFileSearch/FileDAO.h
+string
+-
+vector
+-
+
+C:/Users/orion/dev/DeepFileSearch/main.cpp
+iostream
+-
+FileDAO.h
+C:/Users/orion/dev/DeepFileSearch/FileDAO.h
+

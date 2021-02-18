@@ -91,6 +91,9 @@
 		<Unit filename="C:/Users/orion/dev/DeepFileSearch/main.cpp">
 			<Option target="DeepFileSearch"/>
 		</Unit>
+		<Unit filename="C:/Users/orion/dev/DeepFileSearch/mainwindow.h">
+			<Option target="DeepFileSearch"/>
+		</Unit>
 		<Unit filename="C:/Users/orion/dev/DeepFileSearch/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

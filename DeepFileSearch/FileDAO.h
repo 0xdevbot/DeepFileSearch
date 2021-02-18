@@ -19,11 +19,15 @@ class FileDAO {
 
         void search();
         void findFiles();
+        void setSearchTerm(std::string term);
+        void setPathToDir(std::string path);
 
         std::string getSearchTerm();
         std::string getPathToDir();
         std::vector<std::string> getArryOfFiles();
-        void setSearchTerm(std::string term);
+
+
+
         static std::string getHelp();
 
 

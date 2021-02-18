@@ -207,6 +207,9 @@ DeepFileSearch_BINARY_DIR:STATIC=C:/Users/orion/dev/DeepFileSearch/cmake-build-d
 //Value Computed by CMake
 DeepFileSearch_SOURCE_DIR:STATIC=C:/Users/orion/dev/DeepFileSearch
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=QT_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

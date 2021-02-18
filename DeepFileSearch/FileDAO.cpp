@@ -32,6 +32,12 @@ void FileDAO::setSearchTerm(std::string term) {
     searchTerm = std::move(term);
 }
 
+
+void FileDAO::setPathToDir(std::string path) {
+    pathToDir = std::move(path);
+}
+
+
 std::string FileDAO::getHelp() {
     return "  ____                      _____  _  _        ____                           _     \n"
            " |  _ \\   ___   ___  _ __  |  ___|(_)| |  ___ / ___|   ___   __ _  _ __  ___ | |__  \n"

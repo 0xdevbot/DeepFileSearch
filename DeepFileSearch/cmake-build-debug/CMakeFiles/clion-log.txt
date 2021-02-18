@@ -1,4 +1,17 @@
 C:\Users\orion\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\orion\dev\DeepFileSearch
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/orion/dev/DeepFileSearch/cmake-build-debug
+CMake Error at CMakeLists.txt:32 (find_package):
+  Could not find a package configuration file provided by "QT" with any of
+  the following names:
+
+    Qt6Config.cmake
+    qt6-config.cmake
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "QT" to CMAKE_PREFIX_PATH or set "QT_DIR" to
+  a directory containing one of the above files.  If "QT" provides a separate
+  development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/orion/dev/DeepFileSearch/cmake-build-debug/CMakeFiles/CMakeOutput.log".

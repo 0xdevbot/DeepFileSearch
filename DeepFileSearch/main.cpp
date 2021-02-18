@@ -1,30 +1,28 @@
 #include <iostream>
 #include "FileDAO.h"
-#include "mainwindow.h"
-#include <QApplication>
 
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    FileDAO searchInstance;
+    std::cout << searchInstance.getHelp() << std::endl;
     std::string userInput;
     std::string cmd = "echo ";
     std::cout << "enter a search term" << std::endl;
     std::cin >> userInput;
-    FileDAO searchInstance;
+
     cmd += static_cast<std::string>(userInput);
-    std::cout << searchInstance.getHelp() << std::endl;
+
 
     system(cmd.c_str());
-    return a.exec();
+    return 0;
 }
 
 
 
 /*
 TODO:
+ learn Ultimate++
  cmd calls
  ui mock up
  user input to objects
